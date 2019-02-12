@@ -180,8 +180,8 @@ for i in range(len(m)):
 # Соединяем и находим эйлеров цикл
 
 graph = a + b
-print "Эйлеров Цикл"
-print find_eulerian_tour(graph)
+print ("Эйлеров Цикл")
+print (find_eulerian_tour(graph))
 
 # Суммарный вес пути
 
@@ -190,5 +190,5 @@ SUM = 0
 for x in range(len(graph)):
     SUM = SUM + m[graph[x][0]][graph[x][1]]
 
-print "Суммарный вес"
-print SUM
+print ("Суммарный вес")
+print (SUM)
